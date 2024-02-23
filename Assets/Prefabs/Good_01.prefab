@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1217589249571716369}
   - component: {fileID: 5895878644099794344}
   - component: {fileID: 2399920120998935919}
+  - component: {fileID: 7193286381914599659}
   - component: {fileID: 4509886515275107227}
   m_Layer: 0
   m_Name: Good_01
@@ -112,6 +113,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7193286381914599659
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975175289225057632}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.9964992, y: 0.99649537, z: 0.9964957}
+  m_Center: {x: 0.0000001937151, y: 0, z: -0.000000014901161}
 --- !u!114 &4509886515275107227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124,3 +146,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c1c9164146814bdba75d8882ef87832, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionParticle: {fileID: 15085447402717889, guid: 743ce290c74ae49c19aa3f128322fc7e, type: 3}
+  pointValue: 5
