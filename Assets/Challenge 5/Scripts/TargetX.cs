@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TargetX : MonoBehaviour
 {
+    public ParticleSystem explosionParticle;
     private Rigidbody rb;
     private GameManagerX gameManagerX;
     public int pointValue;
@@ -27,7 +28,7 @@ public class TargetX : MonoBehaviour
     }
 
     // When target is clicked, destroy it, update score, and generate explosion
-    private void OnMouseEnter()
+    private void OnMouseDown()
     {
         if (gameManagerX.isGameActive)
         {
